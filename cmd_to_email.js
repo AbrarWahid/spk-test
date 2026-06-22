@@ -2,9 +2,9 @@ const nodemailer = require('nodemailer');
 const prompt = require('prompt-sync')({sigint: true});
 
 // Konfigurasi Email
-const EMAIL_PENGIRIM = "223443001@mhs.polman-bandung.ac.id";
-const SANDI_APLIKASI_GOOGLE = "kxdipmbljymalfvz"; 
-const EMAIL_PENERIMA = "abrarrwahidd@gmail.com";
+const EMAIL_PENGIRIM = "";
+const SANDI_APLIKASI_GOOGLE = ""; 
+const EMAIL_PENERIMA = "";
 
 // Membuat koneksi ke Gmail
 const transporter = nodemailer.createTransport({
@@ -53,5 +53,4 @@ async function jalankan_program() {
     }
 }
 
-// Menjalankan fungsi
 jalankan_program();
