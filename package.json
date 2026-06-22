@@ -1,0 +1,25 @@
+{
+  "name": "spk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cmd_to_email.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrarWahid/spk-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AbrarWahid/spk-test/issues"
+  },
+  "homepage": "https://github.com/AbrarWahid/spk-test#readme",
+  "dependencies": {
+    "nodemailer": "^9.0.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
