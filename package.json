@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/AbrarWahid/spk-test#readme",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "nodemailer": "^9.0.1",
     "prompt-sync": "^4.2.0"
   }
